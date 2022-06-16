@@ -9,27 +9,22 @@
 /*Iteration 1: Set the block flow direction vertically from left to right using the "vertical" writing-mode command*/
 .header
 {
-   writing-mode: vertical-rl;  
 }
 /*Iteration 2: Set the block flow direction vertically from left to right using the "vertical" writing-mode command*/
 .article-1
 {
-  writing-mode: vertical-lr;
 }
 /*Iteration 3: Set the block flow direction from left to right using the "sideways" writing-mode command */
 .article-2
 {
-  writing-mode: sideways-lr;
 }
 /*Iteration 4: Set the block flow direction from right to left using the "sideways" writing-mode command */
 .article-3
 {
-   writing-mode: sideways-rl;
 }
 /*Default writing mode set by the browser*/
 .article-4
 {
-   writing-mode: horizontal-tb;
 }
 
 
