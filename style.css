@@ -13,7 +13,7 @@
 /*Iteration 4: Set the block flow direction from right to left using the "sideways" writing-mode command */
 .article-3{}
 /*Default writing mode set by the browser*/
-.article-4{}
+.article-4{writing-mode: horizontal-tb;}
 body {
   color: #191919;
   font-family: 'Lato', sans-serif;
