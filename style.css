@@ -4,6 +4,7 @@
 .intro{
   text-align: center;
 }
+<<<<<<< HEAD
 .header{
 /*Iteration 1: Set the block flow direction vertically from top to bottom and the next vertical line is positioned to the left of the previous line.*/
 }
@@ -21,11 +22,22 @@
 .article-4{
 /*Default writing mode set by the browser*/
 }
+=======
+/*Iteration 1: Set the block flow direction vertically from left to right using the "vertical" writing-mode command*/
+.header{}
+/*Iteration 2: Set the block flow direction vertically from left to right using the "vertical" writing-mode command*/
+.article-1{}
+/*Iteration 3: Set the block flow direction from left to right using the "sideways" writing-mode command */
+.article-2{}
+/*Iteration 4: Set the block flow direction from right to left using the "sideways" writing-mode command */
+.article-3{}
+/*Default writing mode set by the browser*/
+.article-4{writing-mode: horizontal-tb;}
+>>>>>>> 14af75fdce1a6be4cdd12fdbbebeb4c651bd35b4
 body {
   color: #191919;
   font-family: 'Lato', sans-serif;
 }
-
 h1, h2 {
   font-family: 'Fjalla One', sans-serif;
   margin-top: 0;
