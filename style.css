@@ -11,9 +11,11 @@
 .header {
   /*Iteration 1: Set the block flow direction vertically from top to bottom and the next vertical line is positioned to the left of the previous line.*/
 }
+
 .article-1 {
   /*Iteration 2:Set the block flow direction vertically from top to bottom and the next vertical line is positioned to the right of the previous line.*/
 }
+
 .article-2 {
   /*Iteration 3: Set the block flow vertically  from bottom to top  and is set sideways toward the right. */
 }
